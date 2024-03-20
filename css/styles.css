@@ -132,6 +132,7 @@ img {
 }
 .header-list {
   display: flex;
+  /* gap: 28px; */
   gap: 40px;
 }
 
@@ -147,6 +148,8 @@ img {
 
 .header-logo {
   margin-right: 76px;
+  /* margin-right: 40px; */
+  /* margin-right: 32px; */
 }
 
 .header-logo {
@@ -192,7 +195,7 @@ img {
   position: relative;
 
   font-weight: 500;
-
+  /* font-weight: 200; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   position: relative;
@@ -227,7 +230,7 @@ a.header-link {
 
 .header-link:hover::after,
 .header-link:focus::after {
-  width: 100%; /* Изменено на расширение на 100% при наведении и фокусе */
+  width: 100%;
 }
 
 /* -------------- main -------------- */
@@ -260,7 +263,8 @@ a.header-link {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin-bottom: 16px;
 }
 
 .gallery-item {
@@ -269,7 +273,9 @@ a.header-link {
 .gallery-btn {
   color: #5b7742;
   background-color: #f4f4fd;
-  padding: 12px 24px 12px;
+  /* padding: 12px 24px 12px; */
+  font-size: 32px;
+  padding: 36px 60px 36px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -311,7 +317,8 @@ a.header-link {
 .gallery-foto-list {
   display: flex;
   flex-wrap: wrap; /* Добавлено свойство flex-wrap */
-  gap: 48px 24px;
+  /* gap: 48px 24px; */
+  gap: 16px 24px;
 }
 
 .gallery-foto-item {
@@ -386,7 +393,7 @@ a.header-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
   /* padding-bottom: 164px; */
   background-color: #5b7742;
   height: 100%;
@@ -395,6 +402,117 @@ a.header-link {
   /* animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
   /* padding: 40px 32px; */
   padding-top: 10px;
+}
+
+/*---------footer----------*/
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #5b7742;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fdd700;
+}
+.footer-logo {
+  margin-bottom: 16px;
+  /* display: flex;
+  align-items: center; */
+  /* display: inline-block; */
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.17;
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #0000c3;
+  /* display: inline-block; */
+}
+
+/* .footer-item-text {
+  color: #f4f4fd;
+  display: flex;
+  text-align: center;
+  max-width: 264px;
+} */
+.footer-item-text {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-right: 120px; */
+}
+/* .footer-item-text {
+  margin-top: 16px;
+} */
+
+.social-media {
+  position: absolute;
+  width: 208px;
+  height: 80px;
+}
+.social-media-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-soc-link:hover {
+  background-color: #31d0aa;
+}
+.footer-soc-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-input {
@@ -449,3 +567,22 @@ a.header-link {
 .footer-icon {
   margin-left: 16px;
 }
+
+/* __________________ */
+
+.custom-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-gallery img {
+  width: auto;
+  margin: 10px; /* Додайте бажане значення для відступів */
+  padding: 5px; /* Додайте бажане значення для відступів */
+  border: 10px solid #5b7742; /* Додайте бажаний колір рамки */
+  border-radius: 10px; /* Додайте бажаний радіус круглості кутиків */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додайте бажаний ефект тіні */
+}
+
+/* Додайте будь-які інші стилі для потрібного оформлення */
