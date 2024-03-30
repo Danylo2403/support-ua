@@ -221,8 +221,8 @@ img {
   transition: width 0.3s ease-in-out; /* Добавлено плавное изменение ширины */
 }
 
-.header-link.ac {
-}
+/* .header-link.ac {
+} */
 
 a.header-link {
   font-weight: 500;
@@ -267,9 +267,10 @@ a.header-link {
   margin-bottom: 16px;
 }
 
-.gallery-item {
-  /* margin-bottom: 8px; */
-}
+/* .gallery-item {
+  margin-bottom: 8px;
+} */
+
 .gallery-btn {
   color: #5b7742;
   background-color: #f4f4fd;
